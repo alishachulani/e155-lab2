@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/achulani/Desktop
+vmultiplexer
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1725937061
+!i10b 1
+!s100 efVYKfJK6Of0fTIc31hbe3
+IQg4<VN?RVIRT@C9:8Sh9Q3
+S1
+Z2 dC:/Users/achulani/Desktop/e155-lab2/fpga/sim
+Z3 w1725934974
+Z4 8C:/Users/achulani/Desktop/e155-lab2/fpga/lab2/source/impl_1/top.sv
+Z5 FC:/Users/achulani/Desktop/e155-lab2/fpga/lab2/source/impl_1/top.sv
+!i122 1
+L0 26 38
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2021.4;73
+r1
+!s85 0
+31
+Z8 !s108 1725937060.000000
+!s107 C:/Users/achulani/Desktop/e155-lab2/fpga/lab2/source/impl_1/top.sv|
+Z9 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achulani/Desktop/e155-lab2/fpga/lab2/source/impl_1/top.sv|
+!s101 -O0
+!i113 1
+Z10 o-work work -sv -O0
+Z11 tCvgOpt 0
+vsevseg
+R0
+R1
+!i10b 1
+!s100 F0_=hK=;8O`FX<UeoY<EE1
+IENmHz0T0zNZFha=IU;hD=3
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 66 27
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/achulani/Desktop/e155-lab2/fpga/lab2/source/impl_1/top.sv|
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsummer
+R0
+R1
+!i10b 1
+!s100 i9KBZ7XEL78[`6b?i3CaF2
+ISjS=TPY=1WN59zYcN1^AA3
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 96 21
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vtop
+R0
+!s125 LATTICE_CONN
+R1
+!i10b 1
+!s100 X_PhM5^[^@7<`9LQ1VG2N2
+IfohKzVFR:c0?8h^I4mo]61
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 7 17
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!s101 -O0
+!i113 1
+R10
+R11

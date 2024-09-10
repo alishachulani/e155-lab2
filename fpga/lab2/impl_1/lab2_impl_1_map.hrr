@@ -1,0 +1,52 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       9.00        100.0
+                                  LUT4	         49        100.0
+                               LUTGATE	         31        100.0
+                                LUTCCU	         18        100.0
+                                 IOREG	          9        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	         17        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           multiplexer	          1        81.6
+                                summer	          1        14.3
+---------------------------------------------------
+Report for cell summer
+   Instance path: top/summing
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        14.3
+                               LUTGATE	          7        22.6
+---------------------------------------------------
+Report for cell multiplexer
+   Instance path: top/switchoff
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       9.00        100.0
+                                  LUT4	         40        81.6
+                               LUTGATE	         22        71.0
+                                LUTCCU	         18        100.0
+                                 IOREG	          9        100.0
+                                PFUREG	         17        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                                sevseg	          1        14.3
+                             sevseg_U0	          1        14.3
+---------------------------------------------------
+Report for cell sevseg
+   Instance path: top/switchoff/sevenseg2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        14.3
+                               LUTGATE	          7        22.6
+---------------------------------------------------
+Report for cell sevseg_U0
+   Instance path: top/switchoff/sevenseg1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        14.3
+                               LUTGATE	          7        22.6

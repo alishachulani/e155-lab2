@@ -1,0 +1,53 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  17 of 5280 (0.322%)
+I/O cells:      23
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2         9          100.0
+                            FD1P3XZ        17          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         9          100.0
+                              IOL_B         9          100.0
+                               LUT4        30          100.0
+                                 OB        14          100.0
+SUB MODULES
+                        multiplexer         1
+                             sevseg         1
+                          sevseg_U0         1
+                             summer         1
+                              TOTAL        93
+----------------------------------------------------------------------
+Report for cell summer.v1
+Instance Path : summing
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           23.3
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell multiplexer.v1
+Instance Path : switchoff
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2         9          100.0
+                            FD1P3XZ        17          100.0
+                              IOL_B         9          100.0
+                               LUT4        22           73.3
+SUB MODULES
+                             sevseg         1
+                          sevseg_U0         1
+                              TOTAL        59
+----------------------------------------------------------------------
+Report for cell sevseg.v1
+Instance Path : switchoff.sevenseg2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           23.3
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell sevseg_U0.v1
+Instance Path : switchoff.sevenseg1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           23.3
+                              TOTAL         7
