@@ -17,10 +17,13 @@ top dut( .reset(reset), .switch1(switch1), .switch2(switch2), .power(power), .se
 initial begin 
 	reset = 0; #1;
 	reset = 1;
-	switch1 = 0; switch2 = 0; #100; 
-	switch1 = 1; switch2 = 0; #100; 
-	switch1 = 0; switch2 = 1; #100; 
-	switch1 = 8; switch2 = 15; #100; 
+	switch1 = 0; switch2 = 0; #10; 
+
+	switch1 = 1; switch2 = 0; #10; 
+	
+	switch1 = 0; switch2 = 1; #10; 
+	
+	switch1 = 8; switch2 = 15; #10; 
 	$stop;
    end
 
