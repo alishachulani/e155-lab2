@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/10/2024 16:04:58
+#Project Location: C:/Users/achulani/Desktop/e155-lab2/fpga/lab2; Project name: lab2
+prj_open "C:/Users/achulani/Desktop/e155-lab2/fpga/lab2/lab2.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/10/2024 17:02:16
