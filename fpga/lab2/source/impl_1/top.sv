@@ -31,9 +31,9 @@ module multiplexer(
 	output logic [6:0] seg
 );
 
-   logic [24:0] counter;
-   logic [6:0] seg1;
-   logic [6:0] seg2;
+     logic [24:0] counter;
+   logic [3:0] switch;
+
   
    // Counter
    always_ff @(posedge clk) begin
@@ -45,17 +45,16 @@ module multiplexer(
 	 if (counter[16] == 0) begin 
 			power[1] <= 1;
 			power[0] <= 0;
-			seg <= seg1;
+			switch <= switch1;
 	end 
 	else begin
 			power[1] <= 0;
 			power[0] <= 1;
-			seg <= seg2;
+			switch <= switch2;
      end
    end
    
-   
-   sevseg sevenseg1(switch1, seg1);   sevseg sevenseg2(switch2, seg2);
+   sevseg sevenseg(switch, seg);
    
   
 
